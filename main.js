@@ -4,7 +4,7 @@ const pets = [
 {
     image: "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/dog_cool_summer_slideshow/1800x1200_dog_cool_summer_other.jpg",
     name: "Mocha",
-    color: "brown",
+    color: "dark brown",
     specialSkill: "can make you coffee",
     typeOfPet: "dog"
 },
@@ -19,11 +19,11 @@ const pets = [
     image: "https://i.pinimg.com/originals/1d/26/14/1d26144b04873f9a13ee05c0ae8d583f.jpg",
     name: "Ducky",
     color: "light purple",
-    specialSkill: "impersonation",
+    specialSkill: "quack quack",
     typeOfPet: "dino"
 },
 {
-    image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/s960x960/93366679_10221584510259882_1653151457899184128_o.jpg?_nc_cat=102&amp;_nc_sid=110474&amp;_nc_ohc=Uvlk5CYAhrwAX-3RMpY&amp;_nc_ht=scontent-atl3-1.xx&amp;_nc_tp=7&amp;oh=2a5eabade88f74514544ac279ca9f77c&amp;oe=5F3F984C",
+    image: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/smartest-dog-breeds-lead-1587757081.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*",
     name: "Souffle",
     color: "tan",
     specialSkill: "spinny-spin",
