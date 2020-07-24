@@ -18,7 +18,7 @@ const pets = [
 {
     image: "https://i.pinimg.com/originals/1d/26/14/1d26144b04873f9a13ee05c0ae8d583f.jpg",
     name: "Ducky",
-    color: "",
+    color: "light purple",
     specialSkill: "impersonation",
     typeOfPet: "dino"
 },
@@ -43,5 +43,26 @@ const pets = [
     specialSkill: "leadership",
     typeOfPet: "dino"
 }
+];
 
-]
+const printToDom = (divId, textToPrint) => {
+    const selectedDiv = document.getElementById(divId);
+    selectedDiv.innerHTML = textToPrint;
+}
+
+const buildPetCards = () => {
+    let domString = '';
+
+    for (let i = 0; i < pets.length; i++) {
+      domString += `<div class="pets">`
+      domString +=   `<div class="pet-name"><h2>${pets[i].name}</h2></div>`;
+      domString +=   `<div class="pet-img"><img src=${pets[i].image} alt="The cutest ${pets[i].typeOfPet} that you can adopt today!"></div>`
+      domString +=   `<div class="pet-color"><h3>${pets[i].color}</h3></div>`
+      domString +=   `<div class="pet-skill"><h3>${pets[i].specialSkill}</h3></div>`
+      domString +=   `<div class="pet-type"><h3>${pets[i].typeOfPet}</h3></div>`
+      domString += `</div>` 
+    }
+    printToDom('pets', domString)
+}
+
+buildPetCards();
