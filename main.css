@@ -4,8 +4,9 @@
 }
 
 body {
-  background-color: lightblue;
-  width: 90%;
+  background-color: #D7E0E7;
+  color: #46433E;
+  width: 85%;
   margin: auto;
 }
 
@@ -23,15 +24,27 @@ body {
 .pet {
   margin: 2em;
   text-align: center;
+  border: 2px solid #46433E;
+  padding: 5px 35px;
+}
+
+.pet-name {
+  margin: 5px 0px 10px 0px;
+}
+
+.pet-image {
+  background-color: rgb(250, 250, 250);
+  padding: 5px;
+  border: 1px solid #46433E;
+}
+
+img {
+  width: 225px;
+  height: 225px;
 }
 
 .pet-type {
   text-transform: uppercase;
-}
-
-img {
-  width: 250px;
-  height: 250px;
 }
 
 /* * {
