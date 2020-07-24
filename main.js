@@ -52,42 +52,71 @@ const printToDom = (divId, textToPrint) => {
 
 const buildPetCards = () => {
     let domString = '';
-
-    for (let i = 0; i < pets.length; i++) {
-      domString += `<div class="pet">`
-      domString +=   `<div class="pet-name"><h2>${pets[i].name}</h2></div>`;
-      domString +=   `<div class="pet-img"><img src=${pets[i].image} alt="The cutest ${pets[i].typeOfPet} that you can adopt today!"></div>`
-      domString +=   `<div class="pet-color"><h3>${pets[i].color}</h3></div>`
-      domString +=   `<div class="pet-skill"><h3>${pets[i].specialSkill}</h3></div>`
-      domString +=   `<div class="pet-type"><h3>${pets[i].typeOfPet}</h3></div>`
-      domString += `</div>` 
+    for (let j = 0; j < pets.length; j++) {
+        domString += `<div class="pet pet-${pets[j].typeOfPet}">`
+        domString +=   `<div class="pet-name"><h2>${pets[j].name}</h2></div>`;
+        domString +=   `<div class="pet-image"><img src=${pets[j].image} alt="Image of a ${pets[j].typeOfPet}"></div>`;
+        domString +=   `<div class="pet-color"><h3>${pets[j].color}</h3></div>`;
+        domString +=   `<div class="pet-skills"><p>${pets[j].specialSkill}</p></div>`;
+        domString +=   `<div class="pet-type"><h3>${pets[j].typeOfPet}</h3></div>`;
+        domString += `</div>`;
     }
-    printToDom('pets', domString)
+    printToDom("pets", domString);
 }
-
 buildPetCards();
-
-const catButton = document.getElementById('btn-cat');
-const dogButton = document.getElementById('btn-dog');
-const dinoButton = document.getElementById('btn-dino');
-const allButton = document.getElementById('btn-all');
-
-catButton.addEventListener('click', function (event) {
-    for (let j = 0; j < pets.length; j++)
-        if (pets[j].typeOfPet !== "cat") {
-            pets.style.display = 'none';
-        }
-
-});
-
+const dogButton = document.getElementById('dog-btn');
+const catButton = document.getElementById('cat-btn');
+const dinoButton = document.getElementById('dino-btn');
+const allButton = document.getElementById('all-btn');
+const getCats = document.getElementsByClassName('pet-cat');
+const getDogs = document.getElementsByClassName('pet-dog');
+const getDinos = document.getElementsByClassName('pet-dino');
 dogButton.addEventListener('click', function (event) {
+    //loop through all pets
+    //select all objects with type of pet !== dog and display none
+    // for (let i = 0; i < pets.length; i++) {
+        for (let l = 0; l < getCats.length; l++) {
+            getCats[l].style.display = 'none';
+        };
+        for (let k = 0; k < getDinos.length; k++) {
+            getDinos[k].style.display = 'none';
+        }
+        for (let l = 0; l < getDogs.length; l++) {
+            getDogs[l].style.display = 'block';
+        };
+  });
+catButton.addEventListener('click', function (event) {
+    for (let l = 0; l < getDogs.length; l++) {
+        getDogs[l].style.display = 'none';
+    };
+    for (let k = 0; k < getDinos.length; k++) {
+        getDinos[k].style.display = 'none';
+    }
+    for (let l = 0; l < getCats.length; l++) {
+        getCats[l].style.display = 'block';
+    };
+  });
 
-});
 
 dinoButton.addEventListener('click', function (event) {
-
-});
-
+    for (let l = 0; l < getCats.length; l++) {
+        getCats[l].style.display = 'none';
+    };
+    for (let k = 0; k < getDogs.length; k++) {
+        getDogs[k].style.display = 'none';
+    }
+    for (let l = 0; l < getDinos.length; l++) {
+        getDinos[l].style.display = 'block';
+    };
+  });
 allButton.addEventListener('click', function (event) {
-
-});
+    for (let l = 0; l < getCats.length; l++) {
+        getCats[l].style.display = 'block';
+    };
+    for (let f = 0; f < getDinos.length; f++) {
+        getDinos[f].style.display = 'block';
+    };
+    for (let k = 0; k < getDogs.length; k++) {
+        getDogs[k].style.display = 'block';
+    }
+  });
