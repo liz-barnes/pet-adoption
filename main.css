@@ -23,29 +23,6 @@
     height: 350px;
   }
 
-  .btn-cat {
-	box-shadow:inset 0px 1px 0px 0px #a4e271;
-	background-color:#89c403;
-	border-radius:6px;
-	border:1px solid #74b807;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #b36c39;
-}
-.btn-cat:hover {
-	background-color:#77a809;
-}
-.btn-cat:active {
-	position:relative;
-	top:1px;
-}
-
 /* * {
     margin: 0;
     padding: 0;
@@ -54,11 +31,13 @@ body {
     background-color: #D7E0E7;
     color: #46433E;
 }
+
 .pets {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
+
 .pets img {
     width: 350px;
 } */
