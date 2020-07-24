@@ -4,13 +4,27 @@
 }
 
 body {
-  background-color: lightblue;
-  width: 90%;
+  background-color: #D7E0E7;
+  color: #46433E;
+  width: 85%;
   margin: auto;
+  font-family: 'roboto';
 }
 
-.header {
-  margin: 25px 0px 25px 15px;
+header {
+  margin: 25px 0px 25px 0px;
+}
+
+.heading {
+  font-family: 'playfair display';
+  font-size: 46px;
+  border-bottom: 2px solid #96ABB0;
+  padding-bottom: 5PX;
+}
+
+.description {
+  margin: 10px 20px;
+  width: 300px;
 }
 
 .pets {
@@ -23,35 +37,46 @@ body {
 .pet {
   margin: 2em;
   text-align: center;
+  border: 2px solid #46433E;
+  padding: 5px 35px;
+}
+
+.pet-name {
+  margin-bottom: 10px;
+  font-family: 'playfair display';
+  font-size: 18px;
+  border-bottom: 1px solid #96ABB0;
+  padding-bottom: 5px;
+}
+
+.pet-image {
+  background-color: rgb(250, 250, 250);
+  padding: 5px;
+  border: 1px solid #46433E;
+}
+
+img {
+  width: 225px;
+  height: 225px;
+}
+
+.pet-color {
+  padding: 5px;
+}
+
+.pet-skills {
+  padding-bottom: 5px;
 }
 
 .pet-type {
   text-transform: uppercase;
+  border-top: 1px solid #96ABB0;
+  padding: 7px;
+  margin-top: 5px;
+  color: #46433E;
+  letter-spacing: .05em;
 }
 
-img {
-  width: 250px;
-  height: 250px;
-}
-
-/* * {
-    margin: 0;
-    padding: 0;
-}
-body {
-    background-color: #D7E0E7;
-    color: #46433E;
-}
-
-.pets {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-}
-
-.pets img {
-    width: 350px;
-} */
 /* orange: #B36B39
     light blue: #D7E0E7
     green: #807F3C

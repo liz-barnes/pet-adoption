@@ -8,23 +8,24 @@
 
 /* START CAT BUTTON */
 .cat-btn {
-  box-shadow: inset 0px 1px 0px 0px #a4e271;
-  background-color: #89c403;
+  box-shadow: inset 0px 1px 0px 0px #c9773d;
+  background-color: #d18147;
   border-radius: 6px;
-  border: 1px solid #74b807;
+  border: 1px solid #c78353;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
+  color: #f1f1f1;
+  font-family: 'roboto';
+  letter-spacing: .025em;
   font-size: 15px;
   font-weight: bold;
   padding: 6px 24px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #b36c39;
+  text-shadow: 0px 1px 0px #a06033;
 }
 
 .cat-btn:hover {
-  background-color: #77a809;
+  background-color: #B36B39;
 }
 
 .cat-btn:active {
@@ -35,23 +36,24 @@
 
 /* START DOG BUTTON */
 .dog-btn {
-  box-shadow: inset 0px 1px 0px 0px #a4e271;
-  background-color: #89c403;
+  box-shadow: inset 0px 1px 0px 0px #929140;
+  background-color: #979646;
   border-radius: 6px;
-  border: 1px solid #74b807;
+  border: 1px solid #918f3d;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
+  color: #f1f1f1;
+  font-family: 'roboto';
+  letter-spacing: .025em;
   font-size: 15px;
   font-weight: bold;
   padding: 6px 24px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #b36c39;
+  text-shadow: 0px 1px 0px #a3a24f;
 }
 
 .dog-btn:hover {
-  background-color: #77a809;
+  background-color: #807F3C;
 }
 
 .dog-btn:active {
@@ -62,54 +64,56 @@
 
 /* START DINO BUTTON */
 .dino-btn {
-  box-shadow: inset 0px 1px 0px 0px #a4e271;
-  background-color: #89c403;
-  border-radius: 6px;
-  border: 1px solid #74b807;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 6px 24px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #b36c39;
-}
-
-.dino-btn:hover {
-  background-color: #77a809;
-}
-
-.dino-btn:active {
-  position: relative;
-  top: 1px;
-}
+    box-shadow: inset 0px 1px 0px 0px #ad91be;
+    background-color: #b89cca;
+    border-radius: 6px;
+    border: 1px solid #af91c2;
+    display: inline-block;
+    cursor: pointer;
+    color: #f1f1f1;
+    font-family: 'roboto';
+    letter-spacing: .025em;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #846b94;
+  }
+  
+  .dino-btn:hover {
+    background-color: #9B7EAD;
+  }
+  
+  .dino-btn:active {
+    position: relative;
+    top: 1px;
+  }
 /* END DINO BUTTON */
 
 /* START ALL BUTTON */
 .all-btn {
-  box-shadow: inset 0px 1px 0px 0px #a4e271;
-  background-color: #89c403;
-  border-radius: 6px;
-  border: 1px solid #74b807;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 6px 24px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #b36c39;
-}
-
-.all-btn:hover {
-  background-color: #77a809;
-}
-
-.all-btn:active {
-  position: relative;
-  top: 1px;
-}
+    box-shadow: inset 0px 1px 0px 0px #b9cdd1;
+    background-color: #ABBFC3;
+    border-radius: 6px;
+    border: 1px solid #a4b9bd;
+    display: inline-block;
+    cursor: pointer;
+    color: #f1f1f1;
+    font-family: 'roboto';
+    letter-spacing: .025em;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #9eb1b4;
+  }
+  
+  .all-btn:hover {
+    background-color: #96ABB0;
+  }
+  
+  .all-btn:active {
+    position: relative;
+    top: 1px;
+  }
 /* END ALL BUTTON */
