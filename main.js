@@ -54,7 +54,7 @@ const buildPetCards = () => {
     let domString = '';
 
     for (let i = 0; i < pets.length; i++) {
-      domString += `<div class="pets">`
+      domString += `<div class="pet">`
       domString +=   `<div class="pet-name"><h2>${pets[i].name}</h2></div>`;
       domString +=   `<div class="pet-img"><img src=${pets[i].image} alt="The cutest ${pets[i].typeOfPet} that you can adopt today!"></div>`
       domString +=   `<div class="pet-color"><h3>${pets[i].color}</h3></div>`
