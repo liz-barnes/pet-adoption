@@ -1,6 +1,31 @@
 * {
     margin: 0;
     padding: 0;
+  }
+  body {
+    background-color: lightblue;
+  }
+  .pets {
+    display: flex;
+    flex-flow: wrap;
+    margin: 1em;
+    justify-content: space-evenly;
+  }
+  .pet {
+    margin: 2em;
+    text-align: center;
+  }
+  .pet-type {
+    text-transform: uppercase;
+  }
+  img {
+    width: 350px;
+    height: 350px;
+  }
+
+/* * {
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -8,6 +33,15 @@ body {
     color: #46433E;
 }
 
+.pets {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.pets img {
+    width: 350px;
+} */
 /* orange: #B36B39
     light blue: #D7E0E7
     green: #807F3C
