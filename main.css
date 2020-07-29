@@ -49,15 +49,12 @@ header {
   padding-bottom: 5px;
 }
 
-.pet-image {
-  background-color: rgb(250, 250, 250);
-  padding: 5px;
-  border: 1px solid #46433E;
-}
-
-img {
+.img-container {
   width: 225px;
   height: 225px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #46433E;
 }
 
 .pet-color {

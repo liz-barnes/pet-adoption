@@ -12,14 +12,14 @@ const pets = [
     image: "https://pixy.org/download/4663301/",
     name: "Kitters",
     color: "white with black spots",
-    specialSkill: "cuddles",
+    specialSkill: "all about the cuddles",
     typeOfPet: "cat"
 },
 {
-    image: "https://i.pinimg.com/originals/1d/26/14/1d26144b04873f9a13ee05c0ae8d583f.jpg",
+    image: "https://i.ytimg.com/vi/0qBQC5ZknRg/maxresdefault.jpg",
     name: "Ducky",
-    color: "light purple",
-    specialSkill: "quack quack",
+    color: "light green",
+    specialSkill: "can quack",
     typeOfPet: "dino"
 },
 {
@@ -37,9 +37,9 @@ const pets = [
     typeOfPet: "cat"
 },
 {
-    image: "https://vignette.wikia.nocookie.net/landbeforetime/images/0/0b/Littlefoot_IV.png/revision/latest?cb=20171227183122",
+    image: "https://i.redd.it/wuainwvwmxi11.png",
     name: "Little Foot",
-    color: "purple",
+    color: "brown",
     specialSkill: "leadership",
     typeOfPet: "dino"
 }
@@ -55,7 +55,7 @@ const buildPetCards = () => {
     for (let j = 0; j < pets.length; j++) {
         domString += `<div class="pet pet-${pets[j].typeOfPet}">`
         domString +=   `<div class="pet-name"><h2>${pets[j].name}</h2></div>`;
-        domString +=   `<div class="pet-image"><img src=${pets[j].image} alt="Image of a ${pets[j].typeOfPet}"></div>`;
+        domString +=   `<div class="img-container" style="background-image: url('${pets[j].image}')"></div>`;
         domString +=   `<div class="pet-color"><h3>${pets[j].color}</h3></div>`;
         domString +=   `<div class="pet-skills"><p>${pets[j].specialSkill}</p></div>`;
         domString +=   `<div class="pet-type"><h3>${pets[j].typeOfPet}</h3></div>`;
