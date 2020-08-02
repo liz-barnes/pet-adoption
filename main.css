@@ -4,11 +4,11 @@
 }
 
 body {
-  background-color: #D7E0E7;
-  color: #46433E;
+  background-color: #d7e0e7;
+  color: #46433e;
   width: 85%;
   margin: auto;
-  font-family: 'roboto';
+  font-family: "roboto";
 }
 
 header {
@@ -16,10 +16,10 @@ header {
 }
 
 .heading {
-  font-family: 'playfair display';
+  font-family: "playfair display";
   font-size: 46px;
-  border-bottom: 2px solid #96ABB0;
-  padding-bottom: 5PX;
+  border-bottom: 2px solid #96abb0;
+  padding-bottom: 5px;
 }
 
 .description {
@@ -37,15 +37,15 @@ header {
 .pet {
   margin: 2em;
   text-align: center;
-  border: 2px solid #46433E;
+  border: 2px solid #46433e;
   padding: 5px 35px;
 }
 
 .pet-name {
   margin-bottom: 10px;
-  font-family: 'playfair display';
+  font-family: "playfair display";
   font-size: 18px;
-  border-bottom: 1px solid #96ABB0;
+  border-bottom: 1px solid #96abb0;
   padding-bottom: 5px;
 }
 
@@ -54,7 +54,7 @@ header {
   height: 225px;
   background-size: cover;
   background-position: center;
-  border: 1px solid #46433E;
+  border: 1px solid #46433e;
 }
 
 .pet-color {
@@ -67,15 +67,9 @@ header {
 
 .pet-type {
   text-transform: uppercase;
-  border-top: 1px solid #96ABB0;
+  border-top: 1px solid #96abb0;
   padding: 7px;
   margin-top: 5px;
-  color: #46433E;
-  letter-spacing: .05em;
+  color: #46433e;
+  letter-spacing: 0.05em;
 }
-
-/* orange: #B36B39
-    light blue: #D7E0E7
-    green: #807F3C
-    blue: #96ABB0
-    Brown: #46433E */
