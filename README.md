@@ -9,4 +9,5 @@ While visiting my site, you can view which pets are currently up for adoption! A
 
 
 ## How magic was made
-Pets cards were made using javascript for loop. Filter buttons were made possible by eventlisteners to display certain pets.
+Pets cards were made possible by Javascript for loops
+Filter buttons were made possible by eventlisteners to display certain pets
