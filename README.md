@@ -1,7 +1,6 @@
 # Precious Pets Adoption Agency
 
-
-preciouspetsadoptionagency.netlify.app
+https://preciouspetsadoptionagency.netlify.app/
 
 
 ## User experience
