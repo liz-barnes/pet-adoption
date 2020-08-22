@@ -2,6 +2,7 @@
 
 https://preciouspetsadoptionagency.netlify.app/
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6c0354ae-873e-4c32-bb13-440521ce51af/deploy-status)](https://app.netlify.com/sites/preciouspetsadoptionagency/deploys)
+![](http://g.recordit.co/STI7BsWsih.gif)
 
 
 ## User experience
